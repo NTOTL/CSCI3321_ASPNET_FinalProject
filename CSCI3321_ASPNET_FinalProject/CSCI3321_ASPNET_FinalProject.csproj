@@ -126,6 +126,8 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="AddAuthors.aspx" />
+    <Content Include="AddPublisher.aspx" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="MyBooks.aspx" />
     <Content Include="Scripts\bootstrap.js" />
@@ -224,6 +226,20 @@
     </Compile>
     <Compile Include="ViewSwitcher.ascx.designer.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="AddAuthors.aspx.cs">
+      <DependentUpon>AddAuthors.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddAuthors.aspx.designer.cs">
+      <DependentUpon>AddAuthors.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddPublisher.aspx.cs">
+      <DependentUpon>AddPublisher.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddPublisher.aspx.designer.cs">
+      <DependentUpon>AddPublisher.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup />
