@@ -1,6 +1,7 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="AddAuthors.aspx.cs" Inherits="CSCI3321_ASPNET_FinalProject.AddAuthors" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
+    <h1>&nbsp;</h1>
     <h1>Add the author</h1>
     <asp:Label ID="lblFirstName" runat="server" Text="First Name: "></asp:Label>
     <asp:TextBox ID="txtFirstName" runat="server" Width="200px" OnTextChanged="txtLastName_TextChanged" AutoPostBack="True"></asp:TextBox>

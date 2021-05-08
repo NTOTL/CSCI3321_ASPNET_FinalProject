@@ -128,6 +128,8 @@
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="AddAuthors.aspx" />
     <Content Include="AddPublisher.aspx" />
+    <Content Include="Home.aspx" />
+    <Content Include="DisplayBooks.aspx" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="MyBooks.aspx" />
     <Content Include="Scripts\bootstrap.js" />
@@ -240,6 +242,20 @@
     </Compile>
     <Compile Include="AddPublisher.aspx.designer.cs">
       <DependentUpon>AddPublisher.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DisplayBooks.aspx.cs">
+      <DependentUpon>DisplayBooks.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DisplayBooks.aspx.designer.cs">
+      <DependentUpon>DisplayBooks.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup />
