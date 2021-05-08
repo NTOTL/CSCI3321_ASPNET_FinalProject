@@ -2,6 +2,7 @@
 using System.Data.SqlClient;
 using System.Web.Configuration;
 
+
 namespace CSCI3321_ASPNET_FinalProject
 {
     public partial class AddPublishers : System.Web.UI.Page
@@ -45,4 +46,3 @@ namespace CSCI3321_ASPNET_FinalProject
         }
 
     }
-}
