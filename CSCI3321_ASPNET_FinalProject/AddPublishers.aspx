@@ -1,10 +1,10 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="AddPublishers.aspx.cs" Inherits="CSCI3321_ASPNET_FinalProject.AddPublishers" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
+
     <h1>&nbsp;</h1>
     <h1>Add the publisher</h1>
     <asp:Label ID="lblName" runat="server" Text="Publisher Name: "></asp:Label>
     <asp:TextBox ID="txtName" runat="server" Width="201px" height="27px" OnTextChanged="txtName_TextChanged" AutoPostBack="True"></asp:TextBox>
-    <br />
     <br />
     <br />
     <asp:Label ID="lblAddress" runat="server" Text="Address: " Width="118px"></asp:Label>
