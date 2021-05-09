@@ -14,7 +14,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>CSCI3321_ASPNET_FinalProject</RootNamespace>
     <AssemblyName>CSCI3321_ASPNET_FinalProject</AssemblyName>
-    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <Use64BitIISExpress />
     <IISExpressSSLPort />
@@ -24,6 +24,7 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -48,10 +49,6 @@
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
-    <Reference Include="System.Core" />
-    <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="System.Web.Extensions" />
-    <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Web" />
     <Reference Include="System.Xml" />
@@ -129,6 +126,10 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="AddAuthors.aspx" />
+    <Content Include="AddPublisher.aspx" />
+    <Content Include="Home.aspx" />
+    <Content Include="DisplayBooks.aspx" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="MyBooks.aspx" />
     <Content Include="Scripts\bootstrap.js" />
@@ -227,6 +228,34 @@
     </Compile>
     <Compile Include="ViewSwitcher.ascx.designer.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="AddAuthors.aspx.cs">
+      <DependentUpon>AddAuthors.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddAuthors.aspx.designer.cs">
+      <DependentUpon>AddAuthors.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddPublisher.aspx.cs">
+      <DependentUpon>AddPublisher.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddPublisher.aspx.designer.cs">
+      <DependentUpon>AddPublisher.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DisplayBooks.aspx.cs">
+      <DependentUpon>DisplayBooks.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DisplayBooks.aspx.designer.cs">
+      <DependentUpon>DisplayBooks.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup />
